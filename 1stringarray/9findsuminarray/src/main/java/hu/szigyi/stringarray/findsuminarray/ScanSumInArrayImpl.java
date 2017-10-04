@@ -1,10 +1,13 @@
 package hu.szigyi.stringarray.findsuminarray;
 
-import java.util.HashMap;
-import java.util.Map;
-
 public class ScanSumInArrayImpl implements SumInArray {
 
+    /**
+     *
+     * @param target
+     * @param arr Should be sorted!
+     * @return
+     */
     @Override
     public int[] find(long target, int[] arr) {
         if (arr.length < 2) {
