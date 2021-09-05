@@ -14,6 +14,7 @@
     <modules>
         <module>1isUnique</module>
         <module>2permutation</module>
+        <module>3urlify</module>
     </modules>
 
 
