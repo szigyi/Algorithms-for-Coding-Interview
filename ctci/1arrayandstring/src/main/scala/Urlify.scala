@@ -1,4 +1,3 @@
-
 import scala.collection.mutable.Stack
 
 object Urlify {
@@ -14,7 +13,7 @@ object Urlify {
           case (ch, true) if ch != ' ' =>
             onlyWhiteSpaceYet = false
             stack.addOne(c)
-          case (' ',  false) =>
+          case (' ', false) =>
             stack.addAll("02%")
           case (ch, false) =>
             stack.addOne(ch)
