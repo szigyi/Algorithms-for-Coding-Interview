@@ -11,6 +11,7 @@
     <modules>
         <module>ctci</module>
         <module>programcreek</module>
+        <module>leetcode</module>
     </modules>
 
     <properties>
